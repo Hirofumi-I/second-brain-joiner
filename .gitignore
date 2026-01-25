@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# GCP / IDE
+.gcloudignore
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (念のため、ローカルのテスト用ファイルを除外)
+*.zip
+*.md
+!README.md
